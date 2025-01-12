@@ -1,0 +1,1 @@
+add_executable(${BEE_TRANSPORT_GAME_TARGET_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
