@@ -1,7 +1,13 @@
 #include <iostream>
+#include <SFML/Graphics.hpp>
+#include "framework/Application.hpp"
 
 int main()
 {
-	std::cout << "Hello World" << std::endl;
-	std::cin.get();
+	bt::Application* app = new bt::Application();
+	app->Run();
+
+	delete app;
+
+	return 0;
 }
